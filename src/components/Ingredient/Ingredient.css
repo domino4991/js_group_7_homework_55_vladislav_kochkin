@@ -1,0 +1,23 @@
+.ingredient {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.ingredient-button,
+.ingredient-remove {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.ingredient-button {
+    display: inline-flex;
+    align-items: center;
+}
+
+.ingredient-button svg {
+    font-size: 40px;
+    margin-right: 20px;
+}
